@@ -7,7 +7,7 @@
                 <a href="/about">About me</a>
             </li>
             <li>
-                <a href="/blog">My Blog</a>
+                <a href="/blog/1">My Blog</a>
             </li>
             <li>
                 <a href="/contact">Contact</a>
