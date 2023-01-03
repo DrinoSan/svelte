@@ -1,6 +1,5 @@
-<header>
-    <a href="/">Home</a>
-
+<header data-theme="light">
+    <a id="home" href="/about">Home</a>
     <nav>
         <ul>
             <li>
@@ -18,12 +17,20 @@
             <li>
                 <a href="/login">Log In</a>
             </li>
+            <li>
+                <a href="/form">Send a mail</a>
+            </li>
         </ul>
     </nav>
 </header>
 
-
 <style>
+   
+   #home {
+    position: relative;
+    padding: 1rem;
+    left: 0;
+   }
     header {
       padding: 1rem;
       background: lightskyblue;
@@ -31,7 +38,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
     }
-    
+
     ul {
       margin: 0;
       list-style-type: none;
@@ -43,4 +50,5 @@
       text-decoration: none;
       color: inherit;
     }
-    </style>
+
+</style>

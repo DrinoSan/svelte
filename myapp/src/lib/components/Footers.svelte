@@ -8,7 +8,6 @@
     </ul>
 </div>
 
-
 <style>
     ul {
   display: inline-grid;
@@ -68,4 +67,3 @@ li:hover ~ li p {
 } 
 
 </style>
-

@@ -1,4 +1,6 @@
 <script>
+  import "@picocss/pico";
+
 	async function getRandomNumber() {
 		const res = await fetch(`http://127.0.0.1:8000/random-number`);
 		const text = await res.text();
