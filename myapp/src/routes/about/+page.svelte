@@ -1,1 +1,3 @@
-<h1>About me</h1>
+<h1>Hi, I'm Sandi!</h1>
+
+<p>This is my about page.</p>
