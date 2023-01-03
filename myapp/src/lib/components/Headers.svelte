@@ -15,6 +15,9 @@
             <li>
                 <a href="/uses">Markdown</a>
             </li>
+            <li>
+                <a href="/login">Log In</a>
+            </li>
         </ul>
     </nav>
 </header>
