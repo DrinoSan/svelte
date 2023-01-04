@@ -23,15 +23,20 @@
 
 <button on:click={handleClick}> generate random number </button>
 
-<p>
-  This does not work currently couse i cant install kqueue on ubuntu...<br />
-  But I swear it works locally
-</p>
+
+<blockquote>
+    "This does not work currently couse i cant install kqueue on ubuntu...<br />
+    But I swear it works locally."
+    <footer>
+      <cite>- Sir McCarthy Alister (My rubber duck)</cite>
+    </footer>
+  </blockquote>
 
 {#await promise}
   <p>...waiting</p>
 {:then number}
   <p>The number is {number}</p>
 {:catch error}
-  <p style="color: red">{error.message}</p>
+    <button aria-busy="true" class="secondary"></button>
+    <progress value="75" max="100"></progress>
 {/await}
