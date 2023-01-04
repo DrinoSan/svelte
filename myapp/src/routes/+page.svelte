@@ -19,7 +19,7 @@
   }
 </script>
 
-<h1>Hi</h1>
+<h1>Hello, world!</h1>
 
 <button on:click={handleClick}> generate random number </button>
 
