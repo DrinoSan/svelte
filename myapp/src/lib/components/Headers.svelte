@@ -2,7 +2,7 @@
   import "@picocss/pico";
 </script>
 
-<nav class="container-fluid" id="navi">
+<nav class="container-fluid" id="navi" data-theme="light">
   <ul>
     <li><a href="/">Home</a></li>
   </ul>
