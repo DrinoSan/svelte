@@ -1,5 +1,5 @@
 <header data-theme="light">
-    <a id="home" href="/about">Home</a>
+    <a id="home" href="/">Home</a>
     <nav>
         <ul>
             <li>
