@@ -1,54 +1,27 @@
-<header data-theme="light">
-    <a id="home" href="/">Home</a>
-    <nav>
-        <ul>
-            <li>
-                <a href="/about">About me</a>
-            </li>
-            <li>
-                <a href="/blog">My Blog</a>
-            </li>
-            <li>
-                <a href="/contact">Contact</a>
-            </li>
-            <li>
-                <a href="/uses">Markdown</a>
-            </li>
-            <li>
-                <a href="/login">Log In</a>
-            </li>
-            <li>
-                <a href="/form">Send a mail</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<script>
+  import "@picocss/pico";
+</script>
+
+<nav id="navi">
+  <ul>
+    <li><a href="/">Home</a></li>
+  </ul>
+  <ul>
+    <li><a href="/about">About me</a></li>
+    <li><a href="/blog">My Blog</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/uses">Markdown</a></li>
+    <li><a href="/login">Log In</a></li>
+    <li><a href="/form">Send a mail</a></li>
+    <li><a href="#" role="button">Button</a></li>
+  </ul>
+</nav>
 
 <style>
-   
-   #home {
-    position: relative;
+  #navi {
     padding: 1rem;
-    left: 0;
-   }
-    header {
-      padding: 1rem;
-      background: lightskyblue;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    ul {
-      margin: 0;
-      list-style-type: none;
-      display: flex;
-      gap: 1rem;
-    }
-    
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
+    display: flex;
+    background: #333333;
+    justify-content: space-between;
+  }
 </style>

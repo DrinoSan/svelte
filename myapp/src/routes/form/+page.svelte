@@ -1,4 +1,4 @@
-<form>
+<form action="mailto:sbed@protonmail.com" method="GET">
     <!-- Grid -->
     <div class="grid">
   
